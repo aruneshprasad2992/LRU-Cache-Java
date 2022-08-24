@@ -20,7 +20,7 @@ public class LRUCache<T> {
         if(node == null) {
             return null;
         }
-        internalQueue.modeNodeToFront(node);
+        internalQueue.moveNodeToFront(node);
         return hashmap.get(key).value;
     }
 
@@ -28,7 +28,7 @@ public class LRUCache<T> {
         Node currentNode = hashmap.get(key);
         if(currentNode != null) {
             currentNode.value = value;
-            internalQueue.modeNodeToFront(currentNode);
+            internalQueue.moveNodeToFront(currentNode);
             return;
         }
 
