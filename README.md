@@ -4,7 +4,7 @@ Java Code Implementing the LRU or Least Recently Used Cache Eviction Policy.
 
 ABSTRACT
 
-In computing, cache algorithms (cache replacement algorithms or cache replacement policies) are optimizing instructions or algorithms that a computer program or a hardware-maintained structure can follow in order to manage a cache of information stored on the computer. When the cache is full, the algorithm must choose which items to discard to make room for the new ones. In This Project we Implements Cache Simulator using Least Recently Used LRU.
+In computing, cache algorithms (cache replacement algorithms or cache replacement policies) are optimizing instructions or algorithms that a computer program or a hardware-maintained structure can follow in order to manage a cache of information stored on the computer. When the cache is full, the algorithm must choose which items to discard to make room for the new ones.
 
 Background
 
